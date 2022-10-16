@@ -5,6 +5,7 @@ project(Liftee VERSION 0.1)
 set(NUKLEAR_LIB_PATH "" CACHE PATH "Path to nuklear lib root folder")
 set(GLFW_LIB_PATH "" CACHE PATH "Path to glfw bin folder")
 set(GLEW_LIB_PATH "" CACHE PATH "Path to glew bin folder")
+set(GLM_LIB_PATH "" CACHE PATH "Path to glm folder")
 
 add_executable(Liftee main.cpp)
 
@@ -23,6 +24,7 @@ target_include_directories(Liftee PUBLIC
     "${NUKLEAR_LIB_PATH}"
     "${GLFW_LIB_PATH}/include"
     "${GLEW_LIB_PATH}/include"
+    "${GLM_LIB_PATH}"
     )
 
 target_link_directories(Liftee PUBLIC
