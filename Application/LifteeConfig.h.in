@@ -1,0 +1,2 @@
+#define Liftee_VERSION_MAJOR @Liftee_VERSION_MAJOR@
+#define Liftee_VERSION_MINOR @Liftee_VERSION_MINOR@
